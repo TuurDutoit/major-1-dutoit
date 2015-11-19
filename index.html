@@ -29,8 +29,8 @@
     <title>Dutoit</title>
   </head>
   <body>
-    <header>
-      <h1>Dutoit</h1>
+    <header class="header">
+      <h1>Du<span class="bullet">&bull;</span>toit</h1>
       <nav>
         <ul>
           <li><a href="#story">Verhaal</a></li>
@@ -40,7 +40,7 @@
       </nav>
     </header>
     <main>
-      <img class="moustache small" src="assets/img/moustache.jpg" alt="snor" />
+      <img class="mustache small" src="assets/img/mustache.png" alt="snor" />
       <section id="dictionary">
         <article class="du">
           <header>
@@ -60,7 +60,7 @@
           </ol>
         </article>
       </section>
-      <img class="moustache" src="assets/img/moustache.jpg" alt="snor" />
+      <img class="mustache" src="assets/img/mustache.png" alt="snor" />
       <section id="story">
         <figure class="albert">
           <img src="assets/img/albert.jpg" alt="Albert, de eerste Dutoit" />
@@ -68,33 +68,67 @@
             Albert, de eerste Dutoit
           </figcaption>
         </figure>
-        <p>
-          Op een mooie dag in het Zuiden van Frankrijk, kwam onze Albert buiten. Vandaag zou hij zijn dak, dat al maanden lekt, eindelijk maken. Hij neemt een ladder, klimt met al zijn materiaal op het dak en gaat aan het werk. Even later schrikt hij op van een vreemd geluid achter hem. Hij draait zich om en ziet een roofvogel aan duizelingwekkende snelheid recht op hem afvliegen! Instictief grijpt hij achter zich naar zijn hamer, die hij met een grootse zwaai pal op de kop van de vogel laat neerkomen. Enkele buren kijken verrast toe hoe het beest neervalt naast Albert, die sindsdien “du toit” genoemd wordt. Het was wel even schrikken, maar er was nu wel al eten voor ‘s avonds!
-        </p>
+        <div class="content">
+          <img class="corner top-left" src="assets/img/vine_corner.png" />
+          <img class="corner top-right" src="assets/img/vine_corner.png" />
+          <img class="corner bottom-right" src="assets/img/vine_corner.png" />
+          <img class="corner bottom-left" src="assets/img/vine_corner.png" />
+          <img class="bird" src="assets/img/bird.png" />
+          <img class="hammer" src="assets/img/hamer.png" />
+          <p>
+            Op een mooie dag in het Zuiden van Frankrijk, kwam onze Albert buiten. Vandaag zou hij zijn dak, dat al maanden lekt, eindelijk maken. Hij neemt een ladder, klimt met al zijn materiaal op het dak en gaat aan het werk. Even later schrikt hij op van een vreemd geluid achter hem. Hij draait zich om en ziet een roofvogel aan duizelingwekkende snelheid recht op hem afvliegen! Instictief grijpt hij achter zich naar zijn hamer, die hij met een grootse zwaai pal op de kop van de vogel laat neerkomen. Enkele buren kijken verrast toe hoe het beest neervalt naast Albert, die sindsdien “du toit” genoemd wordt. Het was wel even schrikken, maar er was nu wel al eten voor ‘s avonds!
+          </p>
+        </div>
       </section>
-      <img class="moustache" src="assets/img/moustache.jpg" alt="snor" />
+      <img class="mustache" src="assets/img/mustache.png" alt="snor" />
       <section id="features">
         <header>
           <h1>Dutoits zijn&hellip;</h1>
         </header>
         <article class="math">
-          <header>
-            <h1>Goed in wiskunde</h1>
+          <div class="container">
+            <header>
+              <h1>Goed in wiskunde</h1>
+            </header>
+            <img class="illustration corner" src="assets/img/winkelhaak.png" />
+            <img class="illustration angle" src="assets/img/boog.png" />
+            <span class="illustration angle-text">90&deg;</span>
             <p>Om daken te meten, plannen te tekenen en grondstoffen aan te kopen, is een basiskennis wikunde vereist. Gelukkig is dit één van de sterke kanten van de Dutoits!</p>
-          </header>
+          </div>
         </article>
         <article class="heights">
-          <header>
-            <h1>Niet bang van hoogtes</h1>
-          </header>
-          <p>Dutoits klimmen al sinds jaar en dag op daken en muren, en dit vanop zeer jonge leeftijd. Hoogtevrees is dus absoluut geen optie.</p>
+          <div class="container">
+            <header>
+              <h1>Niet bang van hoogtes</h1>
+            </header>
+            <img class="illustration trapeze" src="assets/img/trapezist.png" />
+            <img class="illustration slackline" src="assets/img/koorddanser.png" />
+            <p>Dutoits klimmen al sinds jaar en dag op daken en muren, en dit vanop zeer jonge leeftijd. Hoogtevrees is dus absoluut geen optie.</p>
+          </div>
         </article>
         <article class="french">
-          <header>
-            <h1>Trots op hun Franse roots</h1>
-          </header>
-          <p>De stamboom van Dutoit is ontstaan in het grootse
-Frankrijk, en tot op de dag van vandaag laten zij hun trots graag zien.</p>
+          <div class="container">
+            <header>
+              <h1>Trots op hun Franse roots</h1>
+            </header>
+            <p>De stamboom van Dutoit is ontstaan in het grootse
+            Frankrijk, en tot op de dag van vandaag laten zij hun trots graag zien.</p>
+            <div class="flowers">
+              <div class="flower"></div>
+              <div class="flower"></div>
+              <div class="flower"></div>
+              <div class="flower"></div>
+              <div class="flower"></div>
+              <div class="flower"></div>
+              <div class="flower"></div>
+              <div class="flower"></div>
+              <div class="flower"></div>
+              <div class="flower"></div>
+              <div class="flower"></div>
+              <div class="flower"></div>
+              <div class="flower"></div>
+            </div>
+          </div>
         </article>
       </section>
     </main>
@@ -110,6 +144,7 @@ Frankrijk, en tot op de dag van vandaag laten zij hun trots graag zien.</p>
         <li><a href="http://dutoit.com">Fruit &amp; groenten</a></li>
         <li><a href="http://biscuiteriedutoit.com">Koekjes</a></li>
       </ul>
+      <p class="copyright">&copy; 2015 <a href="http://tuurdutoit.be">Tuur Dutoit</a></p>
     </footer>
   </body>
 </html>
