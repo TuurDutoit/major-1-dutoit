@@ -81,9 +81,19 @@ body {
  **************/
 
 #dictionary article {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #dictionary h1 {
@@ -169,19 +179,25 @@ body {
 }
 
 #story .content .top-right {
-  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
   top: 0;
   right: 0;
 }
 
 #story .content .bottom-right {
-  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
   bottom: 0;
   right: 0;
 }
 
 #story .content .bottom-left {
-  transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+      -ms-transform: rotate(270deg);
+          transform: rotate(270deg);
   bottom: 0;
   left: 0;
 }
@@ -256,6 +272,7 @@ body {
 }
 
 #features .heights {
+  /* Pattern by http://subtlepatterns.com */
   background-image: url("../img/pattern_3.png");
   color: black;
 }
@@ -310,8 +327,14 @@ body {
 
 #features .flowers {
   width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 #features .flower {
@@ -342,8 +365,14 @@ footer h1 {
 }
 
 footer ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin: 0;
   padding: 0;
 }
