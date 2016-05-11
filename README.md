@@ -1,5 +1,4 @@
 Dutoit
 ======
 
-[Live website: static.tuurdutoit.be/name](http://static.tuurdutoit.be/name)  
-[Code: github.com/TuurDutoit/major-1-dutoit](https://github.com/TuurDutoit/major-1-dutoit)
+[Live website](http://tuurdutoit.be/major/name) [Read the article](http://tuurdutoit.be/projects/major1)
